@@ -29,6 +29,7 @@
 		</dependency>
 
 		<!-- JUnit Dependency (Cucumber uses JUnit for test execution) -->
+		<!-- JUnit Dependency (Cucumber uses JUnit for test execution) -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
