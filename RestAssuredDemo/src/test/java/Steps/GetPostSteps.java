@@ -27,6 +27,7 @@ public class GetPostSteps {
 	@Then("I should see the author name as {string}")
 	public void i_should_see_the_author_name_as(String authorName) {
 		org.junit.Assert.assertEquals(200, response.getStatusCode());
+		
 		org.junit.Assert.assertEquals(authorName, response.jsonPath().get("author"));
 	}
 }
